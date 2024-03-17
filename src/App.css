@@ -246,8 +246,8 @@ h1 {
   border: 2px solid red;
   border-radius: 40px !important;
   width: 65%;
-  margin-top: -15px;
-  height: 85vh;
+  margin-top: 10px !important;
+  height: 90vh;
   margin: 50px auto;
   background-color: rgba(0, 0, 0, 0.73);
 }
@@ -695,6 +695,7 @@ div#txt {
 }
 .footer-info {
   color: white;
+  margin-top: -30px !important;
 }
 .footer-info a {
   color: floralwhite;

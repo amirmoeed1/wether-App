@@ -10,12 +10,12 @@ function App() {
        {/* <button onClick={App}>wether app</button> */}
       <div className="container">
         <CurrentLocation />
-      <div className="footer-info">
-        | Developed by{" "}
-        <a target="_blank" href="https://github.com/amirmoeed1/wether-App.git/">
-        Amir Moeed 
-        </a>{" "}|
       </div>
+      <div className="footer-info">
+        | Developed by Amir Moeed |{" "}
+        <a target="_blank" href="https://github.com/amirmoeed1/wether-App.git/">
+        Source Code
+        </a>{" "}|
         
         
         
