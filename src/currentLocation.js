@@ -1,7 +1,7 @@
 import React from "react";
 import apiKeys from "./apiKeys";
 import Clock from "react-live-clock";
-import Forcast from "./forcast";
+import Forcast from "./pdfapi";
 import loader from "./images/WeatherIcons.gif";
 import ReactAnimatedWeather from "react-animated-weather";
 const dateBuilder = (d) => {

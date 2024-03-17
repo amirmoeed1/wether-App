@@ -180,12 +180,15 @@ img {
   font-size: 35px;
   font-weight: 100;
   margin-bottom: 10px;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
+  margin-top: -200px;
+  margin-left: 110px;
 }
 .current-date {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 100;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
+  margin-left: 70px;
 }
 
 /*-- //Reset Code --*/
@@ -193,7 +196,7 @@ img {
 /*-- Index-Page-Styling --*/
 
 body {
-  background: url("./images/background.jpg");
+  background: url("./images/background1.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -215,17 +218,36 @@ body a {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 90px;
   font-weight: 400;
   color: #f9f9f9;
   font-family: "Oxygen", sans-serif;
   letter-spacing: 7px;
   margin-top: 50px;
 }
-
+#img{
+  /* margin-left: -20px; */
+}
+#pdf{
+  margin-top: -50px;
+  /* margin-right: 00px; */
+  width: 100px;
+  height: 50px;
+  border: 1px solid red;
+  border-radius: 29px;
+  margin-bottom: 5px;
+  /* position: relative; */
+  /* position: absolute; */
+  color: #0a0202 !important;
+  background-color: #0ccfe5;
+}
 .container {
+  /* border-radius: 10px solid !important; */
+  border: 2px solid red;
+  border-radius: 40px !important;
   width: 65%;
-  height: 80vh;
+  margin-top: -15px;
+  height: 85vh;
   margin: 50px auto;
   background-color: rgba(0, 0, 0, 0.73);
 }
@@ -234,7 +256,7 @@ h1 {
   width: 60%;
   height: 100%;
   float: left;
-  background: url("./images/city.jpg");
+  background: url("./images/city1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
@@ -242,7 +264,9 @@ h1 {
   -o-background-size: cover;
   min-height: 500px;
   position: relative;
+  border-radius: 40px;
   background-position-x: -30px;
+  background-color: #da1b60 !important;
 }
 
 .title {
@@ -252,7 +276,7 @@ h1 {
 }
 
 .title h2 {
-  color: #fff;
+  color: #0ccfe5;
   font-size: 30px;
   font-weight: bold;
 }
@@ -260,7 +284,7 @@ h1 {
 .title h3 {
   font-size: 25px;
   font-weight: bold;
-  color: #eee;
+  color: #22afc4;
   margin-top: 0px;
   text-align: right;
 }
@@ -268,7 +292,7 @@ h1 {
 .date-time {
   position: absolute;
   bottom: 0;
-  color: #fff;
+  color: rgb(243, 236, 236);
   width: 90%;
   padding: 0 30px 10px 30px;
   font-family: "Oxygen", sans-serif;
@@ -289,9 +313,10 @@ div#txt {
 
 .temperature {
   width: 50%;
-  float: right;
+  float:left;
   position: relative;
-  left: 10px;
+  left: 60px;
+ top: -30px;
 }
 
 .temperature p {
@@ -320,7 +345,7 @@ div#txt {
 .today-weather h3 {
   text-transform: capitalize;
   font-size: 50px;
-  color: #fff;
+  color: #8b1010;
   width: 80%;
   margin: 0 auto 10px;
   padding-bottom: 10px;
@@ -632,6 +657,7 @@ div#txt {
   padding: 2px;
 }
 .search-box img {
+  /* margin-left: 20px; */
   width: 60%;
   cursor: pointer;
 }
