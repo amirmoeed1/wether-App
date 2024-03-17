@@ -230,8 +230,10 @@ h1 {
 }
 #pdf{
   margin-top: -50px;
-  /* margin-right: 00px; */
+  /* margin-left: -350px; */
   width: 100px;
+
+  text-align:right !important;
   height: 50px;
   border: 1px solid red;
   border-radius: 29px;
@@ -242,7 +244,7 @@ h1 {
   background-color: #0ccfe5;
 }
 .container {
-  /* border-radius: 10px solid !important; */
+  border-radius: 10px solid !important;
   border: 2px solid red;
   border-radius: 40px !important;
   width: 65%;
@@ -276,8 +278,10 @@ h1 {
 }
 
 .title h2 {
-  color: #0ccfe5;
-  font-size: 30px;
+  margin-right: 20px !important;
+  margin-top: 10px;
+  color: #e50cde;
+  font-size: 50px;
   font-weight: bold;
 }
 
@@ -338,6 +342,7 @@ div#txt {
 }
 
 .forecast-icon {
+  /* position:absolute; */
   padding: 25px 0;
   /* background: white; */
 }

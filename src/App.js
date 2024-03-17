@@ -5,9 +5,9 @@ import "./App.css";
 function App() {
 
   return (
-    
+     
     <React.Fragment>
-       {/* <button onClick={App}>wether app</button> */}
+        
       <div className="container">
         <CurrentLocation />
       </div>

@@ -158,8 +158,8 @@ class Weather extends React.Component {
         <React.Fragment>
           <div className="city">
             <div className="title">
-              <h2>{this.state.city}</h2>
-              <h3>{this.state.country}</h3>
+              <h2>GAmicaCloud</h2>
+              {/* <h3>{this.state.country}</h3> */}
             </div>
             <div className="mb-icon">
               {" "}
